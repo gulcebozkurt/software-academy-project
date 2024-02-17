@@ -1,0 +1,115 @@
+.resimSlider{
+    height: 600px;
+}
+
+body{
+    padding-top: 50px;
+    font-family: "Raleway", sans-serif;
+}
+
+.yazi {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.container{
+    margin: auto 90px;
+}
+
+.container h2{
+    color: #198754;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.container h3{
+    font-size: 40px;
+    text-align: start;
+    padding-top: 23px;
+}
+
+.container p{
+    text-align: start;
+    padding-top: 11px;
+    font-size: 24px;
+}
+
+.container li{
+    font-size: 20px;
+    list-style: none;
+    text-align: start;
+    padding: 7px;
+    color: black;
+}
+.container li i{
+   color: rgb(234, 39, 39);
+}
+
+.ayrac{
+    border: none;
+    border-top: 3px solid black;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.buton1{
+    padding: 8px 13px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.ibeyaz{
+    color: gray;
+    position: relative;
+    top: -55px;
+    font-size: 33px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+
+.igri{
+    color: gray;
+    position: relative;
+    top: -55px;
+    font-size: 33px;
+    border: 10px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.team{
+    background-color: #f2f2f2;
+}
+
+.teamcard img:hover{
+    opacity: 0.9;
+    transition: ease .3s;
+    cursor: pointer;
+}
+
+.contact{
+    background-color: #f2f2f2;
+}
+
+.buton2{
+   padding: 8px 12px;
+   margin: auto;
+}
+
+label{
+    font-weight: 500;
+}
+.gal{
+    flex-basis: 25%;
+}
+
+@media screen and (max-width: 978px){
+    .gal{
+        flex-basis: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+}
